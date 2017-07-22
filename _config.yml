@@ -1,0 +1,69 @@
+#
+###################################
+# Site wide configuration
+####################################
+#
+title: Evance's Arena 
+email: evanxg852000@gmail.com
+description: A collection of my thoughts.
+url: # the base hostname & protocol for your site
+
+
+#
+###################################
+# Jekyll configuration
+####################################
+#
+timezone:          Africa/Conakry
+markdown:          kramdown
+highlighter:       rouge
+excerpt_separator: <!--more-->
+permalink:         /articles/:year-:month/:title
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  enable_coderay: false
+
+#
+###################################
+# Site Owner configuration
+####################################
+#
+owner:
+  name: Evance Soumaoro
+  avatar: evanxg-logo.png
+  job: "Senior Software Developer"
+  bio: "IT professional interested in low level programming, mostly language implementation. Extensive experience in API design and implementation in C++, C#, Java, NodeJS and PHP."
+  email:
+  disqus-shortname:
+  twitter: evanxg852000
+  facebook: Evan.XG
+  google:
+    plus:
+    analytics:
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: evanxg852000
+  gitlab: #username
+  stackoverflow: 1304832/evanxg852000
+  linkedin: #username
+  skype: evanxg852000
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: #username
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  500px: #username
+  codepen: #username
