@@ -3,11 +3,11 @@
 # Site wide configuration
 ####################################
 #
-title: Evance's Arena 
+
+title: Evance 
 email: evanxg852000@gmail.com
 description: A collection of my thoughts.
 url: # the base hostname & protocol for your site
-
 
 #
 ###################################
@@ -26,6 +26,9 @@ kramdown:
   entity_output: as_char
   toc_levels: 1..6
   enable_coderay: false
+
+
+paginate: 5
 
 #
 ###################################
@@ -53,17 +56,8 @@ owner:
   stackoverflow: 1304832/evanxg852000
   linkedin: #username
   skype: evanxg852000
-  xing: #username
-  instagram: #username
-  lastfm: #username
-  tumblr: #username
-  pinterest: #username
-  foursquare: #username
-  steam: #username
-  dribbble: #username
-  youtube: #username
-  soundcloud: #username
-  weibo: #username
-  flickr: #username
-  500px: #username
-  codepen: #username
+
+
+plugins:
+  - jekyll-paginate
+  - jekyll-gist
