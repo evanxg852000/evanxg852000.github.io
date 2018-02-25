@@ -18,7 +18,7 @@ timezone:          Africa/Conakry
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
-permalink:         /articles/:year-:month/:title
+#permalink:         /articles/:year-:month/:title
 
 kramdown:
   auto_ids: true
@@ -41,23 +41,13 @@ owner:
   job: "Senior Software Developer"
   bio: "IT professional interested in low level programming, mostly language implementation. Extensive experience in API design and implementation in C++, C#, Java, NodeJS and PHP."
   email:
-  disqus-shortname:
+  disqus-shortname: evanxg852000
   twitter: evanxg852000
-  facebook: Evan.XG
-  google:
-    plus:
-    analytics:
-    verify:
-    ad-client:
-    ad-slot:
-  bing-verify:
   github: evanxg852000
-  gitlab: #username
   stackoverflow: 1304832/evanxg852000
   linkedin: #username
-  skype: evanxg852000
-
 
 plugins:
   - jekyll-paginate
   - jekyll-gist
+  - jemoji

@@ -1,12 +1,16 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
+
+      {% if site.owner.avatar %}
+      <img src="{{ site.url }}/public/img/{{ site.owner.avatar }}" alt="" class="avatar">
+      {% endif %}
       <h1>
         <a href="{{ site.baseurl }}">
           {{ site.title }}
         </a>
       </h1>
-      <!--p class="lead">{{ site.description }}</p -->
+      
     </div>
 
     <nav class="sidebar-nav">
