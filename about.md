@@ -1,30 +1,23 @@
 ---
 layout: page
-title: About
+title: About me
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
+    Disclaimer: The opinions expressed here are my own and do not necessarily reflect the views of my past and current employers.
 </p>
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+Hi, I am so happy that you got so much interest in me that you are reading this.
+I am Evance Soumaoro, I am a software developer from Conakry, Guinea. I have been programming professionally for more than 8 years, and I am still loving it. On the left, it's me and my wonderful son Alexandre :heart:.  
 
-There are currently two themes built on Poole:
+Currently, I am a Senior Developer at [eHealt Africa](https://www.ehealthafrica.org){:target="_blank"} where I focus on developing public health surveillance apps, as well as disease outbreak response systems in West Africa. Prior to my current position, I developed biometric and identification systems at ETI (Conakry, Guinea) and lead the development of a J2SE eLearning platform at After School Study (London, UK). 
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
+I have professionally developed application in C++, C#, Java, Php, Javascript, Python. I focus on technologies such as ReactJS, VueJS, NodeJS, Laravel, Android, .NET Winform, Flask, Django, Docker, Git, LibGdx, Pygame. I am passionate about low-level programming and performance tuning; always interested in compilers, database engines, concurrency, and emulators.
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+I love playing and watching soccer, reading software development books, listening any type of music. You will be disappointed to follow me on twitter though. You can email me at **evanxg852000[at]gmail[dot]com**, or find me on [LinkedIn](https://www.linkedin.com/in/evance-soumaoro-76898426/){:target="_blank"}
 
-## Setup
+###### Away from computers
 
-Some fun facts about the setup of this project include:
-
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+* I love football(soccer) and my favorite team is [Juventus](http://juventus.com/en/){:target="_blank"} :soccer: 
+* I love playing [PES](http://konami.com/wepes){:target="_blank"} :video_game: 
+* I pretty much like watching [Kung Fu Panda](http://dreamworks.com/kungfupanda){:target="_blank"} & [The Simpsons](http://simpsonsworld.com){:target="_blank"}
