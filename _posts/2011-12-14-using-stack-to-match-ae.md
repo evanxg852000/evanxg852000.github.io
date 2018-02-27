@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Using statck to match arithmetic expressions parentheses"
+title: "Using stack to match arithmetic expressions parentheses"
 date: 2011-12-14 13:47:00
 categories: [tutorial]
 comments: true
