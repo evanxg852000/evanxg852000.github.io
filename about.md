@@ -7,10 +7,10 @@ title: About me
     Disclaimer: The opinions expressed here are my own and do not necessarily reflect the views of my past and current employers.
 </p>
 
-Hi, I am so happy that you got so much interest in me that you are reading this.
-I am Evance Soumaoro, I am a software developer from Conakry, Guinea. I have been programming professionally for more than 8 years, and I am still loving it. On the left, it's me and my wonderful son Alexandre :heart:.  
+Hi, I am so happy that you are reading this.
+I am Evance Soumaoro, I am a software developer from Conakry (Guinea). I have been programming professionally for more than 8 years, and I am still loving it. On the left, it's me and my wonderful son Alexandre :heart:.  
 
-Currently, I am a Senior Developer at [eHealt Africa](https://www.ehealthafrica.org){:target="_blank"} where I focus on developing public health surveillance apps, as well as disease outbreak response systems in West Africa. Prior to my current position, I developed biometric and identification systems at ETI (Conakry, Guinea) and lead the development of a J2SE eLearning platform at After School Study (London, UK). 
+Currently, I am a Senior Developer at [eHealth Africa](https://www.ehealthafrica.org){:target="_blank"} where I focus on developing public health surveillance apps, as well as disease outbreak response systems in West Africa. Prior to my current position, I developed biometric and identification systems at ETI (Conakry, Guinea) and lead the development of a J2SE eLearning platform at After School Study (London, UK). 
 
 I have professionally developed application in C++, C#, Java, Php, Javascript, Python. I focus on technologies such as ReactJS, VueJS, NodeJS, Laravel, Android, .NET Winform, Flask, Django, Docker, Git, LibGdx, Pygame. I am passionate about low-level programming and performance tuning; always interested in compilers, database engines, concurrency, and emulators.
 
