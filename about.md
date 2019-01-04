@@ -14,7 +14,7 @@ Currently, I am a Senior Developer at [eHealth Africa](https://www.ehealthafrica
 
 I have professionally developed application in C++, C#, Java, Php, Javascript, Python. I focus on technologies such as ReactJS, VueJS, NodeJS, Laravel, Android, .NET Winform, Flask, Django, Docker, Git, LibGdx, Pygame. I am passionate about low-level programming and performance tuning; always interested in compilers, database engines, concurrency, and emulators.
 
-I love playing and watching soccer, reading software development books, listening any type of music. You will be disappointed to follow me on twitter though. You can email me at **evanxg852000[at]gmail[dot]com**, or find me on [LinkedIn](https://www.linkedin.com/in/evance-soumaoro-76898426/){:target="_blank"}
+I love playing and watching soccer, reading software development books, listening any type of music. You will be disappointed to follow me on twitter though -working on thiw :wink: . You can find me on [LinkedIn](https://www.linkedin.com/in/evance-soumaoro-76898426/){:target="_blank"}
 
 ###### Away from computers
 
