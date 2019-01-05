@@ -213,6 +213,10 @@ figure.highlight {
   border-radius: 0;
 }
 
+.gist td.blob-num{
+  border: none;
+}
+
 /* Quotes */
 blockquote {
   padding: .5rem 1rem;
