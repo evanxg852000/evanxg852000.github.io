@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Let’s build a NodeJS micro framework (Part I)"
-date: 2019-01-04 10:10:00
+date: 2019-01-05 12:10:00
 categories: [tutorial]
 comments: true
 ---
@@ -20,7 +20,7 @@ while we won’t implement all the ins and outs of the
 [express](https://expressjs.com) framework, we will implement two of the most
 important components of a micro framework.<br> By the end of this tutorial, you
 will have a working framework providing the following high-level features: URL
-routing, middleware support, template engine with inheritance. I have creatively
+routing, middleware support, template rendering with inheritance. I have creatively
 named the framework **micro**, sweet name, right?
 
 We all agree that practicing is the best way to master whatever skill we want to
@@ -62,8 +62,8 @@ display miscellaneous info such as version, vendor, etc…
 To get access to the full router API, the application `route` method is the way
 to go. It gives access to the full router instance of the app. Also, note the
 use of the `render` method on the HTTP response. This is the only API for using
-the framework template engine. I won’t go into the template engine syntax for
-now. The rest of the snippet shows all you can do with the framework router
+the template engine. I won’t go into the template engine syntax for
+now. The rest of the snippet shows all you can do with the router
 component.
 
 <script src="https://gist.github.com/evanxg852000/bfd58fcae64c5493dc25069eb5729260.js"></script>
@@ -145,7 +145,7 @@ You may be asking yourself 🤔; How are we giving access to the template engine
 That’s exactly what we are going to handle next.
 
 In the snippet below, The NodeJS HTTP handler is implemented by the
-`handleRequest` method. It accepts request and response as parameters. We first
+`_handleRequest` method. It accepts request and response as parameters. We first
 call the `_patchResponse` method. Next, we manually dispatch (forward) the
 request to the router holding all the routes handlers. The router will then
 decide which handler to call based on what information it finds in the request.
