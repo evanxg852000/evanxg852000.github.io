@@ -12,7 +12,7 @@ Please let's talk about anything on hangout or skype.
 <!--more-->
 
 Hi, I would like to give you the opportunity to ask me or teach me anything 
-Tech you feel useful. It could about software development, career advice, basic concepts such as algorithms or any frameworks. I speak French, English, Git, Docker, CouchDB, Compilers, Javascript, Java, C++, Python, PHP, Rust etc.
+Tech you feel useful. It could be about software development, career advice, basic concepts such as algorithms or any framework. I speak French, English, Git, Docker, CouchDB, Compilers, Javascript, Java, C++, Python, PHP, Rust etc.
 Please setup a meeting with me on [Calendly](https://calendly.com/evanxg852000/lets-discuss-tech).
 
 **[POUR LES FRANCOPHONES]**
