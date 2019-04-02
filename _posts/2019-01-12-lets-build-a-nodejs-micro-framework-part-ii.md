@@ -13,8 +13,7 @@ comments: true
 ![](https://cdn-images-1.medium.com/max/1600/1*0V3KOPgr9EzfaHoV9vT3rg.jpeg)
 
 In today’s post, we are going to implement the router class of our framework. We
-have already discussed the directory structure of the framework in [Part
-I](https://medium.com/@evanxg852000/lets-build-a-nodejs-micro-framework-part-i-7cf941f2aec9)
+have already discussed the directory structure of the framework in [Part I](https://evanxg852000.github.io/tutorial/2019/01/05/lets-build-a-nodejs-micro-framework-part-i.html)
 of this series. The router component will be implemented in `src/router.js`.
 
 Our router will be implemented as a regular expression matcher behind the scene
@@ -82,7 +81,7 @@ being created in the callback. Consequently, any route created in the callback
 will end up with the current value of `_prefix`.
 
 The `all` method is one of the many router API methods that allow users of the
-framework to add routes without listing the HTTP methods manually. The remaining methods you will find in the repository on [Github](https://github.com/evanxg852000/njs-micro) are: `get`, `post`, `put` and `delete`.
+framework to add routes without listing the HTTP methods manually. The remaining methods you will find in the repository on [Github](https://github.com/evanxg852000/njs-micro){:target="_blank"} are: `get`, `post`, `put` and `delete`.
 
 Now that all these noisy methods are out of the way, let's focus on the most
 important methods of our router class.
@@ -111,8 +110,7 @@ object from our generated `regex` string and return an object made of: the regul
 expression object and the route parameter names array.
 
 The last bit we need to tackle in this `Router` class is the `_dispatch` method.
-Recalling from [Part
-I](https://medium.com/@evanxg852000/lets-build-a-nodejs-micro-framework-part-i-7cf941f2aec9),
+Recalling from [Part I](https://evanxg852000.github.io/tutorial/2019/01/05/lets-build-a-nodejs-micro-framework-part-i.html),
 this is the method in charge of finding the appropriate handler for
 processing an incoming HTTP request. This method might seem a bit tricky. Let’s
 first show the implementation and then explain how it works.
@@ -120,8 +118,7 @@ first show the implementation and then explain how it works.
 <script src="https://gist.github.com/evanxg852000/2edc52d34fdefa2efc520d52841900c0.js"></script>
 
 In this method, we will receive the NodeJS HTTP server `request` and `response`
-object as parameters. Recall from [Part
-I](https://medium.com/@evanxg852000/lets-build-a-nodejs-micro-framework-part-i-7cf941f2aec9)
+object as parameters. Recall from [Part I](https://evanxg852000.github.io/tutorial/2019/01/05/lets-build-a-nodejs-micro-framework-part-i.html)
 that we patched the response with a `render` method for the purpose of
 template rendering. In the above listing, we essentially do three things:
 
@@ -143,14 +140,11 @@ For the `next` handler to be invoked, The developer needs to explicitly call the
 next argument received in the route handler. To achieve this, we need to embed
 the handlers inside each other and end up with the first handler being the
 top-level handler. Basically, we want to go from a flat array of handlers to a
-[Russian dolls](https://en.wikipedia.org/wiki/Matryoshka_doll) like data
-structure of handlers. We could implement this with a Stack or a Linked List.
+[Russian dolls](https://en.wikipedia.org/wiki/Matryoshka_doll) {:target="_blank"} like data structure of handlers. We could implement this with a Stack or a Linked List.
 However, it feels more natural to explain this using the Russian dolls
 approach.
 
-
 <iframe width="718" height="393" src="https://www.youtube.com/embed/-xMYvVr9fd4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 
 Since we need to start building our handler chain from the last handler, we copy
 and reverse the handlers from the matched route `const handlerStack =

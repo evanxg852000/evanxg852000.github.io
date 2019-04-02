@@ -3,7 +3,7 @@ layout: post
 title: "Let's discuss tech"
 date: 2019-03-11 02:09:00
 categories: [community]
-comments: true
+comments: false
 ---
 
 Are you interested in tech, software developement in particular? 
