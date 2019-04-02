@@ -17,7 +17,7 @@ awesome products. As software developers, knowing how they work from the ground
 up can help us develop better software. In this three-part tutorial series, I
 will guide you through the implementation of an express like web framework,
 while we won’t implement all the ins and outs of the
-[express](https://expressjs.com) framework, we will implement two of the most
+[express](https://expressjs.com){:target="_blank"} framework, we will implement two of the most
 important components of a micro framework.<br> By the end of this tutorial, you
 will have a working framework providing the following high-level features: URL
 routing, middleware support, template rendering with inheritance. I have creatively
@@ -33,7 +33,7 @@ comfortable with writing code.
 * Please don’t use this as an opportunity to create yet another framework; we
 already have too many of them.
 * If you feel like jumping ahead of the article, the full source code is
-accessible on [Github](https://github.com/evanxg852000/njs-micro)
+accessible on [Github](https://github.com/evanxg852000/njs-micro){:target="_blank"}
 
 Ready, set, let’s go!!!
 
@@ -100,7 +100,7 @@ is not unit test).
 * `njs-micro/templates`: the templates file will reside here while developing,
 remember that this path is configurable for users of the framework.
 * `njs-micro/test.js`: The unit test folder, please refer to
-[Github](https://github.com/evanxg852000/njs-micro) as we won’t cover unit test
+[Github](https://github.com/evanxg852000/njs-micro){:target="_blank"} as we won’t cover unit test
 in this series.
 
 Now open `njs-micro/src/micro.js,` and let’s code the core class of our
@@ -153,7 +153,7 @@ decide which handler to call based on what information it finds in the request.
 important. This will dynamically create the template rendering function, attach
 it to the response object before handing it over to the dispatch method. This
 dynamic way of enhancing or modifying an object provided by another system at
-runtime is called [Monkey Patching](https://en.wikipedia.org/wiki/Monkey_patch).
+runtime is called [Monkey Patching](https://en.wikipedia.org/wiki/Monkey_patch){:target="_blank"}.
 This is very easy to achieve in dynamic programming languages.
 
 <script src="https://gist.github.com/evanxg852000/e67b07090385525ae247a4206faa8c02.js"></script>
@@ -164,7 +164,7 @@ is one of the reasons TDD was invented; to get early feedback.
 
 **Assignment**: Write unit-test for this first component while stubbing out or
 mocking other components to verify our work so far. You are restricted to use
-only these dependencies [`package.json`](https://github.com/evanxg852000/njs-micro/blob/master/package.json#L16-L19).
+only these dependencies [`package.json`](https://github.com/evanxg852000/njs-micro/blob/master/package.json#L16-L19){:target="_blank"}.
 
 I hope this will get you out of your comfort zone and set you on the way to be a
 rock star developer! Next time we will explore and implement the router

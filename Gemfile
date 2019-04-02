@@ -7,5 +7,5 @@ gem "jekyll-paginate"
 gem "jekyll-gist"
 gem "tzinfo"
 gem "tzinfo-data"
-gem "jemoji"
+gem "jemoji", "~> 0.11.0" 
 

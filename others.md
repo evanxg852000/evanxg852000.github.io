@@ -8,6 +8,7 @@ title:  Others
 </p>
 
 ## Projects & Personal Achievements
+* [Resume](https://drive.google.com/open?id=1hIg8hoIBWQsRihCUh6M7w10oYvyytuna){:target="_blank"}
 * [Flappy](https://github.com/evanxg852000/evansofts-flappy){:target="_blank"}: A pure vanilla JS version of flappy bird.
 * [Yalamo](https://github.com/evanxg852000/yalamo-framework){:target="_blank"}: A PHP mvc framework (old me).
 * [MemDB](https://www.npmjs.com/package/evansofts-memdb){:target="_blank"}: A pure Javascript key-value in memory database for Node JS.
