@@ -10,7 +10,7 @@ comments: true
 
 <!--more-->
 
-![](https://cdn-images-1.medium.com/max/1600/1*0V3KOPgr9EzfaHoV9vT3rg.jpeg)
+![](https://drive.google.com/uc?id=12bGSq5lsB6huFTxGPZx_NXo8vlmuCD6k)
 
 We covered the skeleton implementation of our framework in [Part I](https://evanxg852000.github.io/tutorial/2019/01/05/lets-build-a-nodejs-micro-framework-part-i.html). We also took care of the router implementation in [Part II](https://evanxg852000.github.io/tutorial/2019/01/12/lets-build-a-nodejs-micro-framework-part-ii.html). Today, we will be looking into how to implement the template engine. The template engine will be a basic compiler that will translate our template code into Javascript code. When a template needs to be rendered, the generated code is loaded and executed. Our template engine should avoid unnecessary template compilation; especially when running an application in a production environment.
 
