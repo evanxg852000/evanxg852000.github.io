@@ -10,7 +10,7 @@ comments: true
 
 <!--more-->
 
-![](https://cdn-images-1.medium.com/max/1600/1*0V3KOPgr9EzfaHoV9vT3rg.jpeg)
+![](https://drive.google.com/uc?id=12bGSq5lsB6huFTxGPZx_NXo8vlmuCD6k)
 
 In today’s post, we are going to implement the router class of our framework. We
 have already discussed the directory structure of the framework in [Part I](https://evanxg852000.github.io/tutorial/2019/01/05/lets-build-a-nodejs-micro-framework-part-i.html)

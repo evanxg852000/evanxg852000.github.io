@@ -10,7 +10,7 @@ comments: true
 
 <!--more-->
 
-![](https://cdn-images-1.medium.com/max/1600/1*0V3KOPgr9EzfaHoV9vT3rg.jpeg)
+![](https://drive.google.com/uc?id=12bGSq5lsB6huFTxGPZx_NXo8vlmuCD6k)
 
 Frameworks and libraries are great pieces of software we rely on to build
 awesome products. As software developers, knowing how they work from the ground

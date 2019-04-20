@@ -14,11 +14,11 @@ However with litle time an effort you can achieve nearly perfection in UI design
 
 This is what I have been able to achieve on our Pharma Express  which is based on our business app framework Baboon.
 
-![Pharma Express](https://drive.google.com/uc?export=view&id=0B0rIFKEc-5PYYThvZXk4VjFnc3M "Pharma Express")
+![Pharma Express](https://drive.google.com/uc?id=0B0rIFKEc-5PYYThvZXk4VjFnc3M "Pharma Express")
 
 Pretty neat hein? along the way I have put together an image Library usable throughout many other applications; You can use the resource browser to copy the name of the icon and use it in code. 
 
 The ImageLibrary contains iconsets from famfam, Fugu, eclipse IDE, VS 2010, V2012 and VS2013. To use it in your application, just add the Baboon.ImageLibrary.dll to your project as a reference. 
 
-![Ressource browser](https://drive.google.com/uc?export=view&id=0B0rIFKEc-5PYbUJ5MzdFWEU2VVU "Ressource browser")
+![Ressource browser](https://drive.google.com/uc?id=0B0rIFKEc-5PYbUJ5MzdFWEU2VVU "Ressource browser")
 
