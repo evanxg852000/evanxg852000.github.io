@@ -3,7 +3,7 @@ layout: post
 title: "How I built a serverless runtime for learning"
 date: 2020-06-28 10:10:05
 categories: [tutorial, golang]
-comments: false
+comments: true
 ---
 
 Send passionate developers on vacation, and they usually return with a product idea. Because that’s mostly when their creativity ticks. In my case, I came back with a small toy project that helped me understand and materialize what are cloud functions (aka serverless technology) at the core.
