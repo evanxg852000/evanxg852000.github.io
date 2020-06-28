@@ -14,21 +14,21 @@ Send passionate developers on vacation, and they usually return with a product i
 
 **Disclaimer**: I am no expert in serverless technology. The only drive has been my curiosity of breaking into pieces to understand a technology I have been using for the past 8 months to deploy services. Mostly using tools like [Firebase](https://firebase.google.com/docs/functions){:target="_blank"} and [Serverless](https://www.serverless.com/){:target="_blank"} that really abstract the inner working away from me. Also bear in mind that this is just a toy project for learning therefore very minimal and careless about performance.
 
-## The story 
+## Story 
 So I took a week off a few days ago from work to relax and change settings. Since we are still in theses hard times of COVID-19, I could not do much staying at home. Third day into my time off, I decided to implement a fun project that I could learn from. I usually head over to [Build your own X](https://github.com/danistefanovic/build-your-own-x){:target="_blank"}. But this time the idea was already clear in my head. I wanted to know if I could make my own serverless runtime. Although I love Rust for doing most of my learning these days, choosing Golang was this time obvious for the following reasons:
  - Easy to prototype with
  - Many battle-tested libraries that will turn out useful in the long run
  - Concurrency is a breeze (Well Golang is easy by nature)
  - Defacto language for Cloud-Native apps 
   
-## What I learned
+## Lessons learned
 
 In the most basic form, a cloud function is a function or routine written in a programming language that our runtime is going to package in a docker container. The container will serve as a sandboxing mechanism to isolate the third-party code from affecting our server environment. Yes, you heard it **server environment**. Serverless is not actually serverless 😉.
 
 I implemented my serverless runtime around the Docker container technology. The runtime is a Golang web application with a single endpoint to create or update the functions. A serverless runtime being in charge of packaging and running code from all sorts of companies and developers. Code structures and API should be in place to make those third-party code play by the runtime rules. From my learning experience, I think it's more complicated to come up with these rules and API than implementing the serverless runtime itself. Mostly because as a serverless runtime provider, you want to provide as many programming environments as possible with all sorts of differences.
 In my case, I wanted to provide a way of creating cloud functions in Golang and NodeJS. However, this post will focus on the NodeJS bit and provide a link to the Golang code.
 
-## Our cloud functions structure
+## Cloud functions structure
 As I said previously, we need to dictate the structure and the conventions in order to make things work nicely while being also flexible enough to support other programming environments in the future. So without beating around the bush much longer, here is how a cloud function project should be structured for our runtime.
 
 - [Runtime](https://github.com/evanxg852000/eserveless-platform)
@@ -76,17 +76,21 @@ In our runtime implementation, these templates files are located inside the `run
 
 With all in place, once a function is invoked: we just run the corresponding container, wait for it to be ready if it's a HTTP function before redirecting the HTTP request to the container. We also need to timeout after some time to prevent malicious functions from holding the connection longer. Eventually harming our service.
 
-## The missing pieces
+## Missing pieces
 
 As this is a learning project, there are many pieces missing in this implementation:
- - Cleaning up container images no longer needed
- - Functions should be able to specify their own timeout (currently this is just hardcode as 30 seconds)
- - Starting & shutting down the container on every invocation can be costly for functions that are hot. A better strategy could be to keep them alive for reuse
- - Error handling and security features are needed for production-grade runtime
- - Certainly, many more bugs and conner cases to fix in this toy implementation
+ - Cron functions are not automatically reloaded.
+ - Cleaning up container images no longer needed.
+ - Functions should be able to specify their own timeout (currently this is just hardcode as 30 seconds).
+ - Starting & shutting down the container on every invocation can be costly for functions that are hot. A better strategy could be to keep them alive for reuse.
+ - Error handling and security features are needed for production-grade runtime.
+ - Certainly, many more bugs and conner cases to fix in this toy implementation.
 
+## Short demo
 
-## The conclusion
+<iframe class="video" width="720" height="425" src="https://www.youtube.com/embed/0kF_P5H4-Ec" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Conclusion
 
 I had fun writing this learning project and exploring some corner cases. It was a great learning experience and I could not resist sharing. Please give your feedback in the comments and share your experience working with this awesome technology. The full source code of our serverless platform is available on [Github](https://github.com/evanxg852000/eserveless-platform){:target="_blank"}. Please feel free to fix some hidden features (aka Bugs).
 
