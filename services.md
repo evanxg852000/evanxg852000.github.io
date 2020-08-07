@@ -10,7 +10,7 @@ title: Services
 
 <li class="train">
     <h4>Training</h4>
-    <p>I have been working with the below technologies for years. I offer two training formats: Online and On-Site. I share our expertise with beginners and advanced developers.</p>
+    <p>I have been working with the below technologies for years. I offer two training formats: Online and On-site. I will share my expertise with your team using practical implementation challenges.</p>
 </li>
 
 <li class="cons">
@@ -19,7 +19,7 @@ title: Services
 </li>
 
 <li class="dev">
-    <h4>Developement</h4>
+    <h4>Development</h4>
     <p>Because of time constraints, I don't currently offer custom development. I still provide code review and code quality checks.</p>
 </li>
 
@@ -32,10 +32,10 @@ title: Services
 </ul>
 
 
-## Tecknologies:
+## Technologies:
 
 - Programming Languages: Javascript, Python, Golang, Rust, C/C++
-- Backend Frameworks: Django, Flask, NodeJS, GoFiber
+- Backend Frameworks: Django, Flask, NodeJS, GoStdHttp, GoFiber
 - Frontend Frameworks: ReactJS, VueJS
 - Mobile Frameworks: Android, Flutter
 - System Programming: Network Apps, Distributed Cache, Compilers / VM / Interpreters
@@ -43,7 +43,7 @@ title: Services
 - Tools: Git, Docker, AWS, GCP, Firebase, CI/CD, Serverless
 
 <p class="message">
-    While I am able to work on other technologies or platforms, I prefer spending time and enjoying the above.
+    While I am able to work on other technologies or platforms, I prefer spending time one the above.
 </p>
 
 <a target="_blank" href="https://forms.gle/Tno8aPCmojXf3tQLA" class="request-srvc">Request Service</a>
