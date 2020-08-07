@@ -274,3 +274,72 @@ iframe.video, .video {
   margin: 0 0 1rem;
   border-radius: 5px;
 }
+
+/* services */
+
+.services {
+  list-style: none;
+  padding: 0;
+}
+
+.services li {
+  display: block;
+  width: 48%;
+  min-height: 230px;
+  float: left;
+  margin: 0 13px 13px 0;
+  padding: 8px 12px;
+  background-color: #fff;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.services::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.services li p {
+  font-size: .9rem;
+}
+
+.services li h4 {
+  color: #fff;
+}
+
+
+.services li.train {
+  background-color: #639BCC;
+  /* border: solid 2px ; */
+}
+
+.services li.cons {
+  background-color: #e2b619;
+}
+
+.services li.ment {
+  background-color: #ac4142;
+}
+
+.services li.dev {
+  background-color: #95ca51;
+}
+
+a.request-srvc {
+  display: block;
+  width: 210px;
+  margin: 2rem auto;
+  text-transform: uppercase;
+  border-radius: 10px;
+  padding: 1rem;
+  cursor: pointer;
+  border: 2px solid #ac4142;
+  color: #ac4142 !important;
+}
+
+a.request-srvc:hover{
+  background-color: #ac4142;
+  color: #ffffff !important;
+  text-decoration: none;
+}
