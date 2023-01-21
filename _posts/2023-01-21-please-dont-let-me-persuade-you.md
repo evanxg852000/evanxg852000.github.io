@@ -3,7 +3,7 @@ layout: post
 title: "Please, don't let me persuade you!"
 date: 2023-01-21 19:30:00
 categories: [misc, career]
-comments: false
+comments: true
 ---
 
 Hello fellow readers. it's been a while I don't post here. This is an attempt to break that bad habit in this new year. Today in this post, I would like to talk about life and career from a broader perspective. Of course, I will use tech as a reference point.
