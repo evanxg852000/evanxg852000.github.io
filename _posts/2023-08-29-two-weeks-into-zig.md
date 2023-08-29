@@ -10,6 +10,8 @@ It has already been two weeks since I started trying Zig and I believe this is t
 
 <!--more-->
 
+![](https://drive.google.com/uc?id=114JqoQ5RtaMLuRY8pFTlLyxNqxRtrR91)
+
 First, I have worked with many programming languages throughout the years including PHP, C#.NET, Java, Javascript, Golang. Nowadays, I work primarily with Rust, Golang, and Python. None of those tools is perfect and Zig is not going to be perfect either. That’s something I am well aware. Well, Even Ryan Dahl ended up unhappy with what he created a few years back (NodeJS).  
 
 I may not be a programming language design expert but I have seen a lot of patterns from different languages that I know what I want from a programming language.
