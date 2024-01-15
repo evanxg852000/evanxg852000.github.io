@@ -12,6 +12,8 @@ If you've been following me on Twitter, you may know from a previous tweet that 
 
 ![](https://d29xw0ra2h4o4u.cloudfront.net/assets/public_recurser_working-973845079b2a8523c4c802b8f4edba8f4e76fa4769aaffe5a8afe4a8648ca397.jpg)
 
+<small>*Image source: https://www.recurse.com/about*</small>
+
 It was enjoyable to see all the passionate recursers around and hear about the exciting projects they are planning to work on. I had crafted my plan a while ago and truly enjoyed the official kick-off. However, truth be told, I had already started my batch on December 21st during our pre-batch welcome call. Excited to hit the ground running, I took that opportunity to set up things and start coding on my projects.
 
 I have planned to work on so many things that I don't think I will fit them all into a single batch, but that's fine given that at the Recurse Center, you never truly graduate. The most important thing is to avoid spreading hands into too many projects at the same time. However, for the past two weeks, I have found this difficult to stick to, mostly because I am working on a medium-sized project that sometimes feels like progress is not being made at all. My remedy to this feeling has been to work on something that can be delivered in two days or less, alongside my main projects. So far, this has been effective. I just hope to remain consistent with it until the end.
